@@ -1,0 +1,332 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+
+
+
+body{
+    background: #867B5B;
+    color: #121212;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Jaro';
+    line-height: 40px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: 75px;
+    width: 100%;
+    color: #A9A389;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.front{
+    color: #121212;
+    font-family: 'Jaro';
+    font-size: 150px;
+    line-height: 30px;
+}
+
+.btn1{
+    font-family: 'Jaro';
+    font-size: 48px;
+    line-height: 60px;
+    color: #867B5B;
+    border-radius: 30px;
+    background-color: #121212;
+    border: #121212;
+    text-decoration: none;
+}
+
+.imgVinyl{
+    position: fixed;
+    bottom: 0; 
+}
+
+.logo{
+    font-family: 'Jaro';
+    line-height: 30px;
+    text-align: left;
+    padding: 2px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: right;
+    padding: 2px 100px;
+    font-family: 'Jaro';
+    line-height: 30px;
+}
+
+nav a {
+    color: #A9A389;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Jaro';
+    line-height: 30px;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.block img {
+    width: 420px;
+    position: absolute;
+    right: 0;
+    top: 100px;    
+}
+
+.title1{
+    text-align: left;
+    color: #121212;
+    font-family: 'Jaro';
+    font-size: 200px;
+    line-height: 170px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.block2 {
+    align-items: center;
+    position: absolute;
+    top: 1000px;
+}
+
+.title{
+    text-align: center;
+    color: #121212;
+    font-family: 'Jaro';
+    font-size: 90px;
+    
+}
+
+.title2{
+    text-align: center;
+    color: #A9A389;
+    font-family: 'Jaro';
+    font-size: 90px;
+    
+}
+
+.novelty{
+    background-color: #121212;  
+    padding: 15px;
+}
+
+.cards{
+    height: 300px;
+}
+
+.cards img{
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    
+}
+
+.genres{
+    background-color: #121212;
+    padding: 15px;
+}
+
+.contact{
+    padding: 15px;
+    background-color: #121212;
+    color: #A9A389;
+    width: 100%;
+    text-align: left;
+    font-family: 'Jaro';
+    font-size: 30px;
+    
+}
+
+.dropdown {
+    position: relative;
+}
+
+/* меню сховане */
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #121212;
+    display: none;
+    flex-direction: column;
+    min-width: 150px;
+}
+
+/* посилання всередині */
+.dropdown-menu a {
+    padding: 10px;
+    display: block;
+    color: #A9A389;
+}
+
+/* показ при наведенні */
+.dropdown:hover .dropdown-menu {
+    display: flex;
+}
+
+.grid {
+  display: flex;          
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.grid img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.grid img:hover {
+  transform: scale(1.1);
+}
+
+.grid2 {
+  display: flex;          
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.grid2 img {
+  
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.grid2 img:hover {
+  transform: scale(1.1);
+}
+
+
+.p1{
+    text-align: center;
+    color: #121212;
+    font-family: 'Jaro';
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+.catalog {
+    color: #121212;
+    padding: 20px 10px;
+}
+
+.catalog h1 {
+    font-size: 90px;
+}
+
+.subtitle {
+    color: #A9A389;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.card {
+    background: #A9A389;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+button {
+    background: #867B5B;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ddd5b5;
+}
+
+#cart-container{
+    background: #A9A389;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+#cart-container img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#cart-container h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.buy-btn {
+    background: #867B5B;
+    color: #121212;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    align-items: right;
+}
+
+.buy-btn:hover {
+    background: #ddd5b5;
+}
+
+.buy{
+    background-color: #A9A389;
+    padding: 15px;
+    margin: 40px 0px 0px 0px;
+    width: 100%;
+}
+
